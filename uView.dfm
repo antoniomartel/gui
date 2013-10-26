@@ -1,0 +1,2 @@
+inherited View: TView
+end

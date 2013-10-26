@@ -1,0 +1,20 @@
+
+Este es un ejemplo de una implementación de una interfaz gráfica usando para ello:
+	- Patrón de diseño Observador.
+	- Interaces
+	- Frames y Acciones
+	- Patrón de Diseño Singleton
+	- RTTI
+
+Con la combinación de las Acciones de Delphi y RTTI se consigue eliminar el código en las vistas.
+Interfaces son usadas para implementar la relación "es un" entre TView y TBoard (Observadores).
+Existe una pequeña "Tabla de manejo de memoria" que mantiene los objetos abiertos en memoria.
+Para probar el funcionamiento del patrón Observador:
+	- Abrir un cliente (Customer)
+	- Abrir una factura de venta (Sales order) para ese cliente.
+	- Modificar atributos y aplicar cambios.
+
+Note la pregunta "Cancel changes" cuando se cierra una ventana de edición sin código en esas vistas.
+
+
+NOTA: Todas los comentarios y nombres de variables están escritos en Inglés pues este código fue desarrollado durante mi permanencia en el Reino Unido.
